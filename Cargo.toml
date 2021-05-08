@@ -5,6 +5,7 @@ members = [
     "probe-rs-cli-util",
     "cli",
     "gdb-server",
+    "smoke-tester",
 ]
 
 [profile.release]
