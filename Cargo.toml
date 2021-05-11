@@ -10,6 +10,3 @@ members = [
 
 [profile.release]
 debug = true
-
-[patch."https://github.com/jonas-schievink/jaylink"]
-jaylink = { path = "../jaylink" }
