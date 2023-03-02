@@ -85,7 +85,7 @@ impl<'session> Flasher<'session> {
         tracing::info!("Chosen RAM to run the algo: {:x?}", ram);
 
         let flash_algorithm = FlashAlgorithm::assemble_from_raw(raw_flash_algorithm, ram, target)?;
-
+        println!("Flashing with algo: {:?}", flash_algorithm);
         let mut this = Self {
             session,
             core_index,
